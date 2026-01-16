@@ -92,6 +92,49 @@ category:"Business",
 tags:["Small Business", "Marketing", "Getting Started"],
 },
 
+{
+slug: "seo-basics-for-small-businesses",
+title: "SEO Basics: Getting Found on Google Without the Jargon",
+excerpt:"SEO doesn't have to be complicated. Here's a plain-English guide to help your website show up when people search for what you offer.",
+content: `
+<h3>What Even Is SEO?</h3>
+
+<p>SEO stands for Search Engine Optimisation. In plain English, it's the practice of making your website more likely to show up when someone searches for what you offer on Google (or any search engine).</p>
+
+<h3>Keywords Matter</h3>
+
+<p>Keywords are the words and phrases people type into Google. If you're a guitar teacher in Manchester, you want to show up when someone searches "guitar lessons Manchester." The trick is using these keywords naturally throughout your site — in titles, headings, and content.</p>
+
+<h3>Page Titles and Descriptions</h3>
+
+<p>Every page on your site has a title and description that Google displays in search results. These need to be clear, compelling, and include your keywords. Think of them as your first impression in search results.</p>
+
+<h3>Quality Content</h3>
+
+<p>Google rewards websites that provide genuine value. Write content that answers real questions your customers have. Blog posts, FAQs, and service descriptions all contribute to your site's SEO.</p>
+
+<h3>Mobile and Speed</h3>
+
+<p>Google prioritises mobile-friendly, fast websites. If your site is slow or doesn't work on phones, you'll struggle to rank well, no matter how good your content is.</p>
+
+<h3>Local SEO</h3>
+
+<p>For small businesses, local SEO is crucial. Claim your Google Business Profile, get reviews, and make sure your name, address, and phone number are consistent across the web.</p>
+
+<h3>The Long Game</h3>
+
+<p>SEO isn't instant. It takes time for Google to notice and reward your efforts. But the payoff is worth it — free, organic traffic from people actively searching for what you offer.</p>
+
+<h3>Getting Started</h3>
+
+<p>You don't need to be an expert to improve your SEO. Start with the basics: good titles, quality content, and a fast, mobile-friendly site. Build from there.</p>
+`,
+created:"2026-01-16",
+readTime:"6 min read",
+category:"SEO",
+tags:["SEO", "Google", "Marketing", "Small Business"],
+},
+
 ]
 
 // -----------------------------
@@ -110,3 +153,4 @@ export async function fetchAllTags(): Promise<string[]> {
   posts.forEach((p) => p.tags.forEach((t) => tags.add(t)))
   return Array.from(tags)
 }
+

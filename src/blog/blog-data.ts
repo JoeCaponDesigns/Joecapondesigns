@@ -18,6 +18,56 @@ export interface BlogPost {
 // Static posts (THIS IS YOUR CMS FOR NOW)
 // -----------------------------
 const posts: BlogPost[] = [
+
+  {
+slug: "website-speed-matters",
+title: "Why Website Speed Matters More Than You Think",
+excerpt:"A slow website costs you visitors, customers, and Google rankings. Here's how speed impacts your business and what you can do about it.",
+content:`
+<h3>The 3-Second Rule</h3>
+
+<p>Here's a sobering stat: 53% of mobile users abandon a site that takes longer than 3 seconds to load. Every second counts. A slow website isn't just annoying — it's costing you money.</p>
+
+<h3>Impact on Conversions</h3>
+
+<p>Amazon found that every 100ms of latency cost them 1% in sales. While you might not be Amazon, the principle holds. Faster sites convert better because visitors stay engaged instead of bouncing.</p>
+
+<h3>Google Cares About Speed</h3>
+
+<p>Page speed is a ranking factor for Google. Slow sites get pushed down in search results, which means less traffic. If you're investing in SEO but ignoring speed, you're fighting with one hand tied behind your back.</p>
+
+<h3>What Slows Sites Down</h3>
+
+<p>The usual culprits: <br>
+
+<ul>**Unoptimised images** — Large files that should be compressed</ul>
+<ul>**Too many plugins** — Each one adds weight</ul>
+<ul>**Cheap hosting** — Slow servers = slow sites</ul>
+<ul>**Bloated code** — Especially common with page builders</ul>
+<ul>**No caching** — Making the server work harder than necessary</p></ul>
+
+<h3>Quick Wins</h3>
+
+<p>Some things you can do right now: <br>
+
+<ul>Compress your images (use WebP format)</ul>
+<ul>Enable caching</ul>
+<ul>Upgrade your hosting if it's budget tier</ul>
+<ul>Remove plugins/features you don't need</ul></p>
+
+<h3>The Professional Advantage</h3>
+
+<p>This is one area where custom-built sites really shine. When I build a site, performance is baked in from the start — optimised images, clean code, and modern hosting. My sites consistently score 95+ on Google's PageSpeed Insights.</p>
+
+<h3>Test Your Site</h3>
+
+<p>Curious how your site stacks up? Run it through Google PageSpeed Insights (free tool). The results might surprise you.</p>
+` ,
+created:"2026-01-23",
+readTime:"5 min read",
+category:"Performance",
+tags:["Performance", "SEO", "Conversions"],
+  },
   {
 slug: "seo-basics-for-small-businesses",
 title: "SEO Basics: Getting Found on Google Without the Jargon",

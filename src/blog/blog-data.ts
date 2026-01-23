@@ -38,22 +38,26 @@ content:`
 
 <h3>What Slows Sites Down</h3>
 
-<p>The usual culprits: <br>
+<p>The usual culprits: </p>
 
-<ul>**Unoptimised images** — Large files that should be compressed</ul>
-<ul>**Too many plugins** — Each one adds weight</ul>
-<ul>**Cheap hosting** — Slow servers = slow sites</ul>
-<ul>**Bloated code** — Especially common with page builders</ul>
-<ul>**No caching** — Making the server work harder than necessary</p></ul>
+<ul>
+  <li><strong>Unoptimised images</strong> — Large files that should be compressed</li>
+  <li><strong>Too many plugins</strong> — Each one adds weight</li>
+  <li><strong>Cheap hosting</strong> — Slow servers = slow sites</li>
+  <li><strong>Bloated code</strong> — Especially common with page builders</li>
+  <li><strong>No caching</strong> — Making the server work harder than necessary</li>
+  </ul>
 
 <h3>Quick Wins</h3>
 
-<p>Some things you can do right now: <br>
+<p>Some things you can do right now: </p>
 
-<ul>Compress your images (use WebP format)</ul>
-<ul>Enable caching</ul>
-<ul>Upgrade your hosting if it's budget tier</ul>
-<ul>Remove plugins/features you don't need</ul></p>
+<ul>
+  <li>Compress your images (use WebP format)</li>
+  <li>Enable caching</li>
+  <li>Upgrade your hosting if it's budget tier</li>
+  <li>Remove plugins/features you don't need</li>
+</ul>
 
 <h3>The Professional Advantage</h3>
 

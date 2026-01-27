@@ -24,8 +24,8 @@ export const projects: Project[] = [
     description:
       "A custom-built marketing website for a professional guitar teacher. The site includes structured SEO, fast page performance (99+ Lighthouse), accessibility features, and a clean, mobile-first UI. It helps students learn about lesson options and easily contact the teacher to book sessions.",
     technologies: ["React", "Vite", "Tailwind CSS", "Framer Motion", "TypeScript"],
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/JoeCaponDesigns/GuitarLessonsSite",
+    liveUrl: "https://joecapondesigns.github.io/GuitarLessonsSite/",
   image: project1,
     featured: true,
     results: {
@@ -40,8 +40,8 @@ export const projects: Project[] = [
     description:
       "A modern and approachable website designed for a sports mindset coach who helps athletes overcome performance anxiety, self-doubt, and mental barriers. The site presents the coach's services, courses, testimonials, and contact options in a clear, structured layout to improve engagement and encourage enquiries.",
     technologies: ["React", "Vite", "Tailwind CSS", "React Helmet", "TypeScript"],
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/JoeCaponDesigns/SportsMindMastered",
+    liveUrl: "https://sportsmindmastered.com/",
     image: project2,
     featured: true,
     results: {
@@ -56,8 +56,8 @@ export const projects: Project[] = [
     description:
       "A cheerful, holiday-themed website built to promote a local Christmas lights display and raise donations for charity. The site features animated snow, bright seasonal visuals, and clear calls-to-action guiding visitors to learn more or plan a visit. Designed to be simple, joyful, and mobile-friendly, it helps spread holiday cheer while supporting a good cause.",
     technologies: ["React", "Vite", "Tailwind CSS", "Framer Motion", "Decap CMS"],
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/Joeeeeca/Christmas",
+    liveUrl: "https://highfieldroadchristmaslights.com/",
     image: project3,
     featured: true,
     results: {
@@ -73,8 +73,8 @@ export const projects: Project[] = [
     description:
       "A high-energy, conversion-focused website built for a personal training brand. The site showcases services, transformations, and client results through a clean, modern design with strong visual hierarchy. Structured sections, compelling CTAs, and mobile-first responsiveness help personal trainers attract more clients and build trust with visitors.",
     technologies: ["React", "Vite", "Tailwind CSS", "Framer Motion", "TypeScript"],
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/JoeCaponDesigns/FitCore",
+    liveUrl: "https://joecapondesigns.github.io/FitCore/",
     image: project4,
     featured: true,
     results: {
@@ -90,8 +90,8 @@ export const projects: Project[] = [
     description:
       "a modern health-coaching and e-learning platform founded by Brad Salter. The site showcases his background in sport and exercise nutrition, coaching philosophy, and mission to scale accessible, results-driven health education worldwide.",
     technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "React Router", "Context API", "LocalStorage"],
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/JoeCaponDesigns/YourHealthEducation",
+    liveUrl: "https://joecapondesigns.github.io/YourHealthEducation/#/home",
     image: project5,
     featured: true,
     results: {

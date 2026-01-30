@@ -20,6 +20,53 @@ export interface BlogPost {
 const posts: BlogPost[] = [
 
   {
+slug:"my-web-development-process",
+title:"Behind the Scenes: My Web Development Process",
+excerpt:"Ever wondered what goes into building a website from scratch? I walk you through my step-by-step process from questionnaire to launch.",
+content:`
+<h3>Why Process Matters</h3>
+
+<p>Building a website isn't just about writing code. It's about understanding your business, your customers, and your goals. A good process ensures the final product actually serves your needs.</p>
+
+<h3>Step 1: The Questionnaire</h3>
+
+<p>Everything starts with my questionnaire. I ask about your business, your target audience, your competitors, and what you want your website to achieve. This gives me the foundation I need to create something that works for you.</p>
+
+<h3>Step 2: Planning and Quote</h3>
+
+<p>Based on your answers, I put together a plan and quote. This includes the site structure, features, timeline, and cost. No surprises, you know exactly what you're getting before we start.</p>
+
+<h3>Step 3: Design Direction</h3>
+
+<p>Before writing any code, I establish the visual direction. This includes colours, typography, and overall aesthetic. I'll share mockups or references so we're aligned on the look and feel.</p>
+
+<h3>Step 4: Build and Communication</h3>
+
+<p>This is where the magic happens. I build your site, keeping you updated along the way. You'll see progress, have opportunities to give feedback, and be involved in the process without being overwhelmed.</p>
+
+<h3>Step 5: Review and Refine</h3>
+
+<p>Once the initial build is complete, we review it together. This is your chance to request tweaks and adjustments. I want you to be completely happy before we launch.</p>
+
+<h3>Step 6: Launch</h3>
+
+<p>With your approval, we go live! I handle the technical details: domain setup, hosting, SSL certificates, so you don't have to worry about any of it.</p>
+
+<h3>Step 7: Handover and Support</h3>
+
+<p>You get full access to your site with documentation on how to make basic updates. I also offer ongoing support packages if you'd prefer to have me handle maintenance and updates.</p>
+
+<h3>The Result</h3>
+
+<p>A website that's fast, professional, and built specifically for your business. Not a template, something unique that represents you and converts visitors into customers.</p>
+`,
+created:"2026-01-30",
+readTime:"6 min read",
+category:"Process",
+tags:["Process", "Getting Started", "Behind the Scenes"],
+  },
+
+  {
 slug: "website-speed-matters",
 title: "Why Website Speed Matters More Than You Think",
 excerpt:"A slow website costs you visitors, customers, and Google rankings. Here's how speed impacts your business and what you can do about it.",

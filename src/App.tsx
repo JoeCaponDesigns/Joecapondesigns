@@ -1,6 +1,8 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 
+import AnalyticsListener from "./components/AnalyticsListener";
+
 import HomePage from "./pages/HomePage";
 import BlogPage from "./pages/BlogPage";
 import BlogPostPage from "./pages/BlogPostPage";

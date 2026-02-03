@@ -9,6 +9,7 @@ import {
   StaggerParent,
   StaggerItem,
 } from "../animations/SectionAnimations";
+import { trackEvent } from "../lib/analytics";
 
 const contactMethods = [
   {
@@ -83,6 +84,19 @@ export function ContactSection() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group block h-full"
+                    onClick={() => {
+                      if(method.label === "Questionnaire") {
+                        trackEvent("questionnaire_click", {
+                          location: "contact_cards",
+                        });
+                      }
+
+                      if(method.label === "Email") {
+                        trackEvent("mailto_click", {
+                          location: "contact_cards",
+                        });
+                      }
+                    }}
                   >
                     <Card className="p-6 bg-card/50 backdrop-blur-sm border-gray-800 
                                     hover:border-accent/50 transition-all hover:translate-y-[-2px]
@@ -112,7 +126,12 @@ export function ContactSection() {
                 className="bg-accent hover:bg-accent/90 text-accent-foreground font-mono group"
                 asChild
               >
-                <a href="mailto:joecapon101@gmail.com">
+                <a href="mailto:joecapon101@gmail.com"
+                onClick={() =>
+                  trackEvent("contact_email_click", {
+                    location: "primary_cta",
+                  })
+                }>
                   <Mail className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />
                   Send me an email
                 </a>

@@ -19,6 +19,7 @@ import {
   StaggerParent,
   StaggerItem,
 } from "../animations/SectionAnimations";
+import { trackEvent } from "../lib/analytics";
 
 const packages = [
   {
@@ -195,7 +196,15 @@ export function ServicesSection() {
               size="lg"
               className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8"
             >
-              <a href={questionnaireUrl} target="_blank" rel="noopener noreferrer">
+              <a href={questionnaireUrl} target="_blank" rel="noopener noreferrer"
+              onClick={() => {
+                 trackEvent("questionnaire_click", {
+      location: "services_section",
+    })
+              }}
+                
+              
+              >
                 Start Your Project
                 <ArrowRight className="ml-2 w-4 h-4" />
               </a>

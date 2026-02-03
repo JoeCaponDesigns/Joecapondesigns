@@ -2,6 +2,7 @@ import { Button } from "./ui/buttons";
 import { Linkedin, Mail, Instagram } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import { HeroFadeUp } from "../animations/SectionAnimations"; 
+import { trackEvent } from "../lib/analytics";
 // H1 intentionally has NO animation → protects LCP score.
 
 export function HeroSection() {
@@ -106,7 +107,12 @@ export function HeroSection() {
           ------------------------------------------------- */}
           <HeroFadeUp delay={0.65}>
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
-              <a href="#projects">
+              <a href="#projects"
+              onClick={() => {
+                trackEvent("view_my_work_click", {
+                location: "hero",
+                })
+              }}>
                 <Button
                   size="lg"
                   className="
@@ -161,6 +167,11 @@ export function HeroSection() {
                 href="mailto:joecapon101@gmail.com"
                 className="text-muted-foreground hover:text-accent transition-colors"
                 aria-label="Email"
+                onClick={() => {
+                  trackEvent("mailto_click", {
+                    location: "hero_socials",
+                  })
+                }}
               >
                 <Mail className="w-6 h-6" />
               </a>

@@ -6,3 +6,13 @@ export const pageview = (url: string) => {
     });
   }
 };
+
+export const trackEvent = (
+  action: string,
+  params?: Record<string, any>
+) => {
+  if (typeof window !== "undefined" && "gtag" in window) {
+    // @ts-ignore
+    window.gtag("event", action, params);
+  }
+};

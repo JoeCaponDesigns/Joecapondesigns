@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardFooter, CardHeader } from "../ui/card";
+import { trackEvent } from "../../lib/analytics";
 
 // 🔥 The BlogPostCard now expects the PocketBase-mapped structure
 export interface BlogPostCardProps {
@@ -22,7 +23,13 @@ export function BlogPostCard({
   tags,
 }: BlogPostCardProps) {
   return (
-    <Link to={`/blog/${slug}`} className="group block">
+    <Link to={`/blog/${slug}`} className="group block"
+    onClick={() =>
+    trackEvent("blog_post_click", {
+      post: title,
+      location: "blog_index",
+    })
+  }>
       <Card className="h-full border-border bg-card transition-all duration-300 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5">
         
         {/* HEADER */}

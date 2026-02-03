@@ -8,6 +8,7 @@ import { PageTransition } from "../components/ui/PageTransition";
 import { ReadingProgress } from "../components/ui/ReadingProgress";
 import { TableOfContents } from "../blog/TableofContents";
 import { ShareButton } from "../components/blog/ShareButton";
+import { trackEvent } from "../lib/analytics";
 
 
 // ---- Helpers ------------------------------------------------
@@ -315,6 +316,12 @@ const toc = useMemo(() => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground shadow-sm transition hover:bg-primary/90 hover:shadow-md"
+                  onClick={() => {
+    trackEvent("questionnaire_click", {
+      location: "blog_post_cta",
+      post: post.slug,
+    })
+  }}
                 >
                   Start Your Project
                   <span>→</span>
@@ -399,6 +406,13 @@ const toc = useMemo(() => {
                   >
                     <Link
                       to={`/blog/${rp.slug}`}
+                       onClick={() =>
+    trackEvent("blog_post_click", {
+      post: rp.title,
+      location: "related_posts",
+      from: post.slug,
+    })
+  }
                       className="group flex h-full flex-col rounded-2xl border border-border bg-card/80 p-6 shadow-sm transition hover:-translate-y-1 hover:border-primary/60 hover:shadow-md"
                     >
                       <span className="mb-3 inline-flex rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary">

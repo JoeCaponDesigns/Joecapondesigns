@@ -4,6 +4,7 @@ import { Card } from "../components/ui/card"
 import { Button } from "../components/ui/buttons"
 import { ExternalLink, Github, ArrowLeft } from "lucide-react"
 import { projects } from "../lib/projects-data"
+import { trackEvent } from "../lib/analytics"
 
 export default function ProjectsPage() {
   return (
@@ -101,6 +102,13 @@ export default function ProjectsPage() {
                         href={project.liveUrl}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={() => {
+                          trackEvent("project_click", {
+                          project: project.title,
+                          destination: "live_site",
+                          location: "projects_page",
+                          })
+                        }}
                       >
                         <ExternalLink className="w-4 h-4 mr-2" />
                         View Live
@@ -117,6 +125,13 @@ export default function ProjectsPage() {
                         href={project.githubUrl}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={() => {
+                          trackEvent("project_click"), {
+                          project:project.title,
+                          destination: "github",
+                          location: "projects_page",
+                          }
+                        }}
                       >
                         <Github className="w-4 h-4 mr-2" />
                         Code

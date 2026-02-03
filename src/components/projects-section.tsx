@@ -13,6 +13,7 @@ import {
   FadeZoom,
   SlideLR,
 } from "../animations/SectionAnimations";
+import { trackEvent } from "../lib/analytics";
 
 const projects = [
   {
@@ -178,6 +179,13 @@ export function ProjectsSection() {
                           href={project.githubUrl}
                           target="_blank"
                           className="text-muted-foreground hover:text-accent transition-colors"
+                          onClick={() => {
+                            trackEvent("project_click", {
+                              project: project.title,
+                              destination: "github",
+                              location: "projects_section",
+                            })
+                          }}
                         >
                           <Github className="w-6 h-6" />
                         </a>
@@ -185,6 +193,13 @@ export function ProjectsSection() {
                           href={project.liveUrl}
                           target="_blank"
                           className="text-muted-foreground hover:text-accent transition-colors"
+                          onClick={() => {
+                            trackEvent("project_click", {
+                            project: project.title,
+                            destination: "live_site",
+                            location: "projects_section",
+                            })
+                          }}
                         >
                           <ExternalLink className="w-6 h-6" />
                         </a>
@@ -226,7 +241,12 @@ export function ProjectsSection() {
             variant="outline"
             className="border-2 border-accent text-accent hover:bg-accent/10 bg-transparent"
           >
-            <Link to="/projects">View All Projects</Link>
+            <Link to="/projects"
+            onClick={() => {
+              trackEvent("view_all_projects_click", {
+              location: "projects_section",
+              })
+            }}>View All Projects</Link>
           </Button>
         </div>
         </div>

@@ -20,6 +20,75 @@ export interface BlogPost {
 const posts: BlogPost[] = [
 
   {
+slug:"diy-vs-professional-website",
+title:"DIY Website Builders vs Hiring a Developer: Which Is Right for You?",
+excerpt:"Wix, Squarespace, or a custom build? I compare the pros and cons so you can make the best choice for your business and budget.",
+content:`
+<h3>The Big Question</h3>
+
+<p>Should you build your own website using a platform like Wix or Squarespace, or should you hire a developer? The answer depends on your needs, budget, and how much time you have.</p>
+
+<h3>DIY Website Builders</h3>
+
+<p><strong>Pros:</strong></p>
+<ul>
+<li>Low upfront cost (£0-20/month)</li>
+<li>No technical skills required</li>
+<li>Quick to get started</li>
+<li>Templates handle the design</li>
+</ul>
+
+<p><strong>Cons:</strong></p>
+
+<ul>
+<liLimited customisation></li>
+<li>Can look generic</li>
+<li>Often slower performance</li>
+<li>Limited SEO capabilities</li>
+<li>You're tied to the platform</li>
+</ul>
+
+<h3>Hiring a Developer</h3>
+<p><strong>Pros:</strong></p>
+
+<ul>
+<li>Fully custom design</li>
+<li>Optimised performance</li>
+<li>Better SEO potential</li>
+<li>You own your code</li>
+<li>Professional, unique result</li>
+</ul>
+
+<p><strong>Cons:</strong></p>
+
+<ul>
+<li>Higher upfront cost</li>
+<li>Takes longer to build</li>
+<li>Need to find the right developer</li>
+</ul>
+
+<h3>When DIY Makes Sense</h3>
+
+<p>If you're just starting out, have a very tight budget, or need something simple like a basic landing page, a DIY builder can work. It's also fine for hobby projects or testing an idea before investing more.</p>
+
+<h3>When to Hire a Developer</h3>
+
+<p>If your website is a core part of your business, if it needs to convert visitors, rank on Google, or represent your brand professionally then investing in a developer pays off. The performance, customisation, and polish you get are worth it..</p>
+
+<h3>The Middle Ground</h3>
+
+<p>Some businesses start with a DIY site, then upgrade to a custom build once they've grown. There's no shame in that, it's a smart way to validate your business first.</p>
+
+<h3>My Honest Take</h3>
+
+<p>I'm biased, but I've seen too many businesses struggle with slow, generic DIY sites. If your website matters to your business, working with a developer (even for a simple site) gives you a foundation you can build on.</p>`,
+created:"2026-02-06",
+readTime:"8 min read",
+category:"Business",
+tags:["Small Business", "Getting Started", "Comparisons"],
+  },
+
+  {
 slug:"my-web-development-process",
 title:"Behind the Scenes: My Web Development Process",
 excerpt:"Ever wondered what goes into building a website from scratch? I walk you through my step-by-step process from questionnaire to launch.",
@@ -73,7 +142,7 @@ excerpt:"A slow website costs you visitors, customers, and Google rankings. Here
 content:`
 <h3>The 3-Second Rule</h3>
 
-<p>Here's a sobering stat: 53% of mobile users abandon a site that takes longer than 3 seconds to load. Every second counts. A slow website isn't just annoying — it's costing you money.</p>
+<p>Here's a sobering stat: 53% of mobile users abandon a site that takes longer than 3 seconds to load. Every second counts. A slow website isn’t just annoying; it’s costing you money.</p>
 
 <h3>Impact on Conversions</h3>
 
@@ -88,11 +157,11 @@ content:`
 <p>The usual culprits: </p>
 
 <ul>
-  <li><strong>Unoptimised images</strong> — Large files that should be compressed</li>
-  <li><strong>Too many plugins</strong> — Each one adds weight</li>
-  <li><strong>Cheap hosting</strong> — Slow servers = slow sites</li>
-  <li><strong>Bloated code</strong> — Especially common with page builders</li>
-  <li><strong>No caching</strong> — Making the server work harder than necessary</li>
+  <li><strong>Unoptimised images</strong> - Large files that should be compressed</li>
+  <li><strong>Too many plugins</strong> - Each one adds weight</li>
+  <li><strong>Cheap hosting</strong> - Slow servers = slow sites</li>
+  <li><strong>Bloated code</strong> - Especially common with page builders</li>
+  <li><strong>No caching</strong> - Making the server work harder than necessary</li>
   </ul>
 
 <h3>Quick Wins</h3>
@@ -130,7 +199,7 @@ content: `
 
 <h3>Keywords Matter</h3>
 
-<p>Keywords are the words and phrases people type into Google. If you're a guitar teacher in Manchester, you want to show up when someone searches "guitar lessons Manchester." The trick is using these keywords naturally throughout your site — in titles, headings, and content.</p>
+<p>Keywords are the words and phrases people type into Google. If you're a guitar teacher in Manchester, you want to show up when someone searches "guitar lessons Manchester." The trick is using these keywords naturally throughout your site, in titles, headings, and content.</p>
 
 <h3>Page Titles and Descriptions</h3>
 
@@ -150,7 +219,7 @@ content: `
 
 <h3>The Long Game</h3>
 
-<p>SEO isn't instant. It takes time for Google to notice and reward your efforts. But the payoff is worth it — free, organic traffic from people actively searching for what you offer.</p>
+<p>SEO isn't instant. It takes time for Google to notice and reward your efforts. But the payoff is worth it: free, organic traffic from people actively searching for what you offer.</p>
 
 <h3>Getting Started</h3>
 
@@ -168,7 +237,7 @@ excerpt:"In today's digital world, having a professional website isn't optional 
 content: `
 <h3>The Digital Storefront</h3>
 
-<p>In 2024, your website is often the first impression potential customers have of your business. Before they ever walk through your door or pick up the phone, they're Googling you. And if you don't show up — or worse, if your site looks outdated — you've already lost them.</p>
+<p>In 2024, your website is often the first impression potential customers have of your business. Before they ever walk through your door or pick up the phone, they're Googling you. And if you don’t show up, or worse, if your site looks outdated, you’ve already lost them.</p>
 
 <h3>Credibility and Trust</h3>
 
@@ -176,7 +245,7 @@ content: `
 
 <h3>Available 24/7</h3>
 
-<p>Unlike a physical location, your website never closes. It's working for you around the clock — answering questions, showcasing your services, and capturing leads while you sleep. That's powerful.</p>
+<p>Unlike a physical location, your website never closes. It’s working for you around the clock, answering questions, showcasing your services, and capturing leads while you sleep. That's powerful.</p>
 
 <h3>Your Competitors Already Have One</h3>
 
@@ -188,7 +257,7 @@ content: `
 
 <h3>The Bottom Line</h3>
 
-<p>A website isn't just a nice-to-have anymore — it's essential infrastructure for any business that wants to grow. If you're ready to establish your online presence, I'd love to help you get started.</p>
+<p>A website isn’t just a nice-to-have anymore; it’s essential infrastructure for any business that wants to grow. If you're ready to establish your online presence, I'd love to help you get started.</p>
 `,
 created:"2026-01-09",
 readTime:"5 min read",
@@ -202,13 +271,13 @@ tags:["Small Business", "Marketing", "Getting Started"],
       "It's not just about looking pretty. I break down the key elements that separate an okay website from one that actually converts visitors into customers.",
     content: `
 <h3>More Than Just Pretty</h3>
-<p>A lot of people think a good website is just about looking nice. And while aesthetics matter, they're only part of the equation. A truly good website is one that achieves your business goals — whether that's getting enquiries, selling products, or building trust.</p>
+<p>A lot of people think a good website is just about looking nice. And while aesthetics matter, they're only part of the equation. A truly good website is one that achieves your business goals, whether that’s getting enquiries, selling products, or building trust.</p>
 
 <h3>Clear Purpose</h3>
 <p>Every page should have a clear purpose. What do you want visitors to do? Call you? Fill out a form? Buy something? A good website guides visitors toward that action without making them think too hard.</p>
 
 <h3>Fast Loading Times</h3>
-<p>Speed matters more than you think. Studies show that 53% of mobile users leave a site that takes longer than 3 seconds to load. A good website is optimised for performance — compressed images, clean code, and fast hosting.</p>
+<p>Speed matters more than you think. Studies show that 53% of mobile users leave a site that takes longer than 3 seconds to load. A good website is optimised for performance, with compressed images, clean code, and fast hosting.</p>
 
 <h3>Mobile-First Design</h3>
 <p>More than half of web traffic comes from mobile devices. If your site doesn't work beautifully on a phone, you're losing customers. Good websites are designed mobile-first, then enhanced for larger screens.</p>
@@ -223,7 +292,7 @@ tags:["Small Business", "Marketing", "Getting Started"],
 
 <h3>Accessibility</h3>
 
-<p>A good website works for everyone, including people with disabilities. Proper contrast, alt text for images, and keyboard navigation aren't just nice to have — they're essential.</p>
+<p>A good website works for everyone, including people with disabilities. Proper contrast, alt text for images, and keyboard navigation aren’t just nice to have; they’re essential.</p>
 
 <h3>The Takeaway</h3>
 

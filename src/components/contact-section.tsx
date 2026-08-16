@@ -81,8 +81,8 @@ export function ContactSection() {
                 <StaggerItem key={method.label}>
                   <a
                     href={method.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    target={method.href.startsWith("mailto:") ? undefined : "_blank"}
+                    rel={method.href.startsWith("mailto:") ? undefined : "noopener noreferrer"}
                     className="group block h-full"
                     onClick={() => {
                       if(method.label === "Questionnaire") {
